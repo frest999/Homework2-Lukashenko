@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0; 
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+
+body{
+	background-color: #eceff0;
+	width: 100%;
+}
+
+.blue-block{
+	background-color: #3498db;
+}
+
+.content{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.welcome-section{
+	padding-top: 55px;
+	padding-bottom: 175px;
+}
+
+.logo{
+	float:left;
+	padding: 10px 0;
+}
+.menu-btn{
+	width: 37px;
+	height: 27px;
+	background: url(img/menu.png) no-repeat;
+	border: none;
+	float: right;
+}
+
+.overflow{
+	overflow: hidden;
+}
+
+.hello-text, .main-caption{
+	color: #eceff0;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+}
+
+.hello-text{
+	font-size: 86px;
+	font-weight: bold;
+	margin-top: 240px;
+}
+
+.main-caption{
+	font-size: 55px;
+	margin-top: 20px;
+}
+
+.white-block{
+	width: 820px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 20px;
+	text-align: center;
+	color: #354050;
+	padding: 40px 170px;
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 2;
+	position: relative;
+	border-bottom: 2px solid #d0d2d3;
+	border-right: 2px solid #d0d2d3;
+}
+
+
+.white-block h2{
+	font-weight: normal;
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+.white-block p{
+	padding-bottom: 50px;
+}
+
+.cross{
+	background: url(img/cross.png) no-repeat;
+	width: 35px;
+	height: 35px;
+	margin: 10px auto;
+	padding-bottom: 20px;
+}
+
+.btn-block{
+	margin-bottom: 50px;
+}
+
+.read-more-btn{
+	background-color: #3498db;
+	color: white;
+	padding: 20px 70px;
+	font-weight: bold;
+	border-radius: 50px;
+}
+
+.overlay{
+	position: relative;
+}
+
+.overlay:before{
+	content: '';
+	display: block;
+	height: 200px;
+	background-color: #3498db;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.photo-elipse{
+	margin-top: 60px;
+	text-align: center;
+}
+
+.photo-elipse li{
+	display: inline-block;
+	width:380px;
+}
+
+.circle{
+	width: 225px;
+	height: 225px;
+	border-radius: 150px;
+	margin: 30px auto;
+	background-color: white;
+}
+
+.circle-text{
+	text-transform: uppercase;
+	font-weight: bold;
+	color:#354050;	
+	font-size: 20px;
+	line-height: 1.8;
+	text-align: center;
+}
+
+.circle img{
+	width: 225px;
+	height: 225px;
+}
+
+.green-block{
+	margin-top: 125px;
+	background-color: #27ae60;
+	padding-bottom: 100px;
+}
+
+.green-grey-caption{
+	font-size: 20px;
+	display: block;
+	margin:0 auto;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.8;
+	padding-top: 100px;
+	margin-bottom: 50px;
+}
+
+.green-grey-caption h3 {
+	font-size: 40px;	
+}
+
+.green-capt{
+	color:white;
+	width:750px;
+	padding-bottom: 75px;
+}
+
+.slider{
+	text-align: center;
+}
+
+.slider img{
+	max-width: 1500px;
+	width:95%;
+}
+
+.grey-section h3{
+	font-size:30px;
+}
+
+.two-wblock{
+	width:450px;
+	padding: 15px 50px;
+	margin-left: 20px;
+}
+
+.overlay2{
+	position: relative;
+}
+
+.overlay2:before{
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	content: '';
+	background-color: #eceff0;
+	height: 200px;
+}
+
+.wh-section{
+	text-align: center;
+}
+
+.wh-section li{
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+
+.purple-block{
+	background-color: #8b59b2;	
+}
+
+.purple-section{
+	background-color: #8b59b2;	
+}
+
+.clients{
+	margin-top: 110px;
+	text-align: center;
+}
+
+.clients h3{
+	font-size: 40px; 
+	text-transform: uppercase;
+	color: white;
+	font-weight: normal;
+	margin-bottom: 100px;
+}
+
+.clients li{
+	filter: grayscale(1);
+	list-style-type: none;
+	display: inline-block;
+	width: 280px;
+	padding-bottom: 125px;
+}
+
+.grey-capt{
+	width:760px;
+}
+
+.photo-elipse p {
+	margin-top: 10px;
+	line-height: 1.8;
+}
+
+.social-media{
+	margin-top: 20px;
+	margin-bottom: 110px;
+}
+
+.social-media li{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+
+.soc-icon{
+	width: 40px;
+	height: 40px;
+}
+
+.facebook{
+	background: url(img/facebook.png) no-repeat;
+}
+
+.twiter{
+	background: url(img/twiter.png) no-repeat;
+}
+
+.google-plus{
+	background: url(img/google-plus.png) no-repeat;
+}
+
+.main-footer{
+	background-color: #354050;
+	padding: 30px;
+}
+
+.main-nav{
+	float:right;
+}
+
+.main-nav li{
+	margin-left: 20px;
+	padding-top: 10px;
+	list-style-type: none;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.main-nav a{
+	color: #bcc1c6;
+}
